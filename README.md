@@ -4,7 +4,7 @@ Collection of  notebooks and scripts related to financial engineering, quant-res
 
 ## Table of Contents
 
-- Momentum and Reversion - The Poor Man's Trading Strategies - [Github](https://github.com/adamd1985/quant_research/blob/main/momentum-and-mean-reversion-quant.ipynb)
+- **Momentum and Reversion - The Poor Man's Trading Strategies** - [Github](https://github.com/adamd1985/quant_research/blob/main/momentum-and-mean-reversion-quant.ipynb), [kaggle](https://www.kaggle.com/code/addarm/momentum-and-mean-reversion-quant)
 
 
 # Usage and Licenses
