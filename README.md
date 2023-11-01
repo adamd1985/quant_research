@@ -1,4 +1,4 @@
-# Financial Engineering Article
+# Financial Engineering Articles
 
 Collection of  notebooks and scripts related to financial engineering, quant-research and algo-trading.
 
