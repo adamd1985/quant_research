@@ -1,4 +1,4 @@
-# Financial Engineering Repo
+# Financial Engineering Article
 
 Collection of  notebooks and scripts related to financial engineering, quant-research and algo-trading.
 
