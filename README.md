@@ -8,6 +8,13 @@ Collection of  notebooks and scripts related to financial engineering, quant-res
 - **Pairs Trading Strategy - Every Stock needs a Friend**: [Github](https://github.com/adamd1985/quant_research/blob/main/pair-trading-quant.ipynb) or [Kaggle](https://www.kaggle.com/addarm/pairs-trading-strategy-quant)
 - **Oscilators in Quant Trading Strategies**: [Github](https://github.com/adamd1985/quant_research/blob/main/oscilators-quant.ipynb) or [Kaggle](https://www.kaggle.com/code/addarm/trading-oscillators-quant)
 
+## Dependencies and Datasets
+
+**requirements.txt** was created using:
+`jupyter nbconvert --to script *.ipynb & pipreqs`
+
+All financial timeseries datasets are free and available on Yahoo Finance.
+
 # Usage and Licenses
 
 ## Code and Media
