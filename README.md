@@ -6,7 +6,7 @@ Collection of  notebooks and scripts related to financial engineering, quant-res
 
 - **Momentum and Reversion - The Poor Man's Trading Strategies**: [Github](https://github.com/adamd1985/quant_research/blob/main/momentum-and-mean-reversion-quant.ipynb) or [Kaggle](https://www.kaggle.com/code/addarm/momentum-and-mean-reversion-quant)
 - **Pairs Trading Strategy - Every Stock needs a Friend**: [Github](https://github.com/adamd1985/quant_research/blob/main/pair-trading-quant.ipynb) or [Kaggle](https://www.kaggle.com/addarm/pairs-trading-strategy-quant)
-
+- **Oscilators in Quant Trading Strategies**: [Github](https://github.com/adamd1985/quant_research/blob/main/oscilators-quant.ipynb) or [Kaggle](https://www.kaggle.com/code/addarm/trading-oscillators-quant)
 
 # Usage and Licenses
 
