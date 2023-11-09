@@ -34,6 +34,38 @@ def load_ticker_ts_df(ticker, start_date, end_date):
     return df
 
 
+def load_ticker_prices_ts_df(tickers, start_date, end_date):
+    """Load and cache time series financial data from Yahoo Finance API.
+
+    Parameters:
+    - tickers (list): A list of stock ticker symbols (e.g., ['AAPL', 'TSLA'] for Apple and Tesla).
+    - start_date (str): The start date in 'YYYY-MM-DD' format for data retrieval. 
+    - end_date (str): The end date in 'YYYY-MM-DD' format for data retrieval.
+
+    Returns:
+    - df (pandas.DataFrame): A DataFrame containing the financial time series data.
+    """
+    
+    dir_path = './data'
+    df = pd.DataFrame()
+    for ticker in tickers:
+        cached_file_path = f'{dir_path}/{ticker}_{start_date}_{end_date}.pkl'
+
+        try:
+            if os.path.exists(cached_file_path):
+                temp_df = pd.read_pickle(cached_file_path)
+            else:
+                temp_df = yf.download(ticker, start=start_date, end=end_date)
+                if not os.path.exists(dir_path):
+                    os.makedirs(dir_path)
+                temp_df.to_pickle(cached_file_path)
+            temp_df = temp_df.rename(columns={'Adj Close': ticker})[ticker]
+            df = pd.concat([df, temp_df], axis=1)
+        except Exception as e:
+            print(f'Error downloading data for {ticker}: {e}')
+
+    return df
+
 def calculate_profit(signals, prices):
     """
     Calculate cumulative profit based on trading signals and stock prices.
