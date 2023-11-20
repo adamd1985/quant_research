@@ -7,11 +7,12 @@ Collection of  notebooks and scripts related to financial engineering, quant-res
 - **Momentum and Reversion Trading Signals Analysis**: [Github](https://github.com/adamd1985/quant_research/blob/main/momentum-and-mean-reversion-quant.ipynb) or [Kaggle](https://www.kaggle.com/code/addarm/momentum-and-mean-reversion-quant)
 - **Pairs-Trading Strategy Analysis**: [Github](https://github.com/adamd1985/quant_research/blob/main/pair-trading-quant.ipynb) or [Kaggle](https://www.kaggle.com/addarm/pairs-trading-strategy-quant)
 - **Oscillators as Technical Trading Signals Analysis**: [Github](https://github.com/adamd1985/quant_research/blob/main/oscilators-quant.ipynb) or [Kaggle](https://www.kaggle.com/code/addarm/trading-oscillators-quant)
+- **Solving for the Efficient Frontier in Stock Portfolios**: [Github](https://github.com/adamd1985/quant_research/blob/main/efficient-frontier-quant.ipynb) or [Kaggle](https://www.kaggle.com/code/addarm/efficient-frontier-quant)
 
 ## Dependencies and Datasets
 
 **requirements.txt** was created using:
-`jupyter nbconvert --to script *.ipynb & pipreqs`
+`jupyter nbconvert --to script *.ipynb & pipreqs --force`
 
 All financial timeseries datasets are free and available on Yahoo Finance.
 
