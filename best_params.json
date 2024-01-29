@@ -1,1 +1,1 @@
-{"best_params": {"batch_size": 32, "dilation_rate": 2, "dropout_rate": 0.5, "epochs": 1, "kernel_size": 5, "l2_reg": 0.005, "learning_rate": 0.0001, "num_filters": 128, "num_layers": 5, "patience": 25}, "best_loss": 54418.8671875}
+{"best_params": {"batch_size": 32, "dilation_rate": 2, "dropout_rate": 0.5, "epochs": 75, "kernel_size": 5, "l2_reg": 0.005, "learning_rate": 0.0001, "num_filters": 256, "num_layers": 2, "patience": 25}, "best_loss": 20940.25}
