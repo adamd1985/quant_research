@@ -1,15 +1,1 @@
-{
-  "best_params": {
-    "batch_size": 32,
-    "dilation_rate": 2,
-    "dropout_rate": 0.1,
-    "epochs": 150,
-    "kernel_size": 2,
-    "l2_reg": 0.005,
-    "learning_rate": 0.0001,
-    "num_filters": 1,
-    "num_layers": 4,
-    "patience": 25
-  },
-  "best_loss": 419.92010498046875
-}
+{"best_params": {"batch_size": 124, "bias": true, "dense_units": "0", "dilation_rate": 1, "dropout_rate": 0.5, "epochs": 300, "kernel_size": 6, "learning_rate": 0.01, "num_filters": 496, "num_layers": 1, "patience": 5, "reg_weight": 0.0005}, "best_loss": 0.32065916061401367, "best_metric": 0.5}
