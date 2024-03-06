@@ -4,6 +4,8 @@ Collection of  notebooks and scripts related to financial engineering, quant-res
 
 ## Table of Contents
 
+- **Pairs Trading via Unsupervised Learning** [Github](https://github.com/adamd1985/pairs_trading_unsupervised_learning) or [Kaggle](https://www.kaggle.com/code/addarm/unsupervised-learning-as-signals-for-pairs-trading).
+- **Temporal Convolution Neural Network with Conditioning for Broad Market Signals**: [Github](https://github.com/adamd1985/quant_research/blob/main/efficient-frontier-quant.ipynb) or [Kaggle](https://github.com/adamd1985/quant_research/blob/main/tcn_signals_research.ipynb).
 - **Momentum and Reversion Trading Signals Analysis**: [Github](https://github.com/adamd1985/quant_research/blob/main/momentum-and-mean-reversion-quant.ipynb) or [Kaggle](https://www.kaggle.com/code/addarm/momentum-and-mean-reversion-quant)
 - **Pairs-Trading Strategy Analysis**: [Github](https://github.com/adamd1985/quant_research/blob/main/pair-trading-quant.ipynb) or [Kaggle](https://www.kaggle.com/addarm/pairs-trading-strategy-quant)
 - **Oscillators as Technical Trading Signals Analysis**: [Github](https://github.com/adamd1985/quant_research/blob/main/oscilators-quant.ipynb) or [Kaggle](https://www.kaggle.com/code/addarm/trading-oscillators-quant)
