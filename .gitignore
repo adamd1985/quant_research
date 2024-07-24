@@ -1,7 +1,7 @@
 data/cache
 ./logs
 logs/*
-data/*
+
 # Except for prices.csv and units.csv
 !data/prices.csv
 !data/units.csv
