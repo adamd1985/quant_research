@@ -1,1 +1,1 @@
-{"Model":{"0":"Gradient Boosting Classifier"},"Accuracy":{"0":0.5571142285},"Recall":{"0":0.5573770492},"Precision":{"0":0.546184739},"F1 Score":{"0":0.5517241379},"AUC":{"0":0.5757955641},"CV Score":{"0":0.6142144158}}
+{"Model":{"0":"Random Forest Classifier"},"Accuracy":{"0":0.5911823647},"Recall":{"0":0.5348837209},"Precision":{"0":0.6216216216},"F1 Score":{"0":0.575},"AUC":{"0":0.6033162855},"CV Score":{"0":0.5867344934}}
