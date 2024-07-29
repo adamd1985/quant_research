@@ -5,8 +5,7 @@ logs/*
 # Except for prices.csv and units.csv
 !data/prices.csv
 !data/units.csv
-models/*
-./models
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
