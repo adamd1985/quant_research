@@ -1,3 +1,5 @@
+exports/
+
 data/cache
 ./logs
 logs/*
