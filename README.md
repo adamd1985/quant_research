@@ -4,6 +4,11 @@ Collection of  notebooks and scripts related to financial engineering, quant-res
 
 ## Table of Contents
 
+- **Portfolio Machine Learning Trials Without P-Hacking with Honest PSR, DSR, and SPA Tests** [Github](https://github.com/adamd1985/quant_research/blob/main/portfolio_ml_trails_no_phacking_testing.ipynb) or [Kaggle](https://www.kaggle.com/code/addarm/portfolio-ml-trials-without-p-hacking).
+- **Machine Learning and Stochastic Models for Predicting FOMC Meetings Impact** [Github](https://github.com/adamd1985/quant_research/blob/main/fomc_impact_sims.ipynb) or [Kaggle]().
+- **Building an Equity Universe with Fama-French 5 Factors** [Github](https://github.com/adamd1985/quant_research/blob/main/five-factor-universe-quant.ipynb) or [Kaggle]().
+- **Bond Valuations Explained** [Github](https://github.com/adamd1985/quant_research/blob/main/bond_valuations.ipynb) or [Kaggle]().
+- **Basket of Indices** [Github](https://github.com/adamd1985/quant_research/blob/main/basket_calculations.ipynb) or [Kaggle]().
 - **Pairs Trading via Unsupervised Learning** [Github](https://github.com/adamd1985/pairs_trading_unsupervised_learning) or [Kaggle](https://www.kaggle.com/code/addarm/unsupervised-learning-as-signals-for-pairs-trading).
 - **Temporal Convolution Neural Network with Conditioning for Broad Market Signals**: [Github](https://github.com/adamd1985/quant_research/blob/main/efficient-frontier-quant.ipynb) or [Kaggle](https://github.com/adamd1985/quant_research/blob/main/tcn_signals_research.ipynb).
 - **Momentum and Reversion Trading Signals Analysis**: [Github](https://github.com/adamd1985/quant_research/blob/main/momentum-and-mean-reversion-quant.ipynb) or [Kaggle](https://www.kaggle.com/code/addarm/momentum-and-mean-reversion-quant)
