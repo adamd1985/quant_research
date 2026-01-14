@@ -48,3 +48,5 @@ Assist with quantitative research notebooks, statistical validation, and clear a
 - For auto-fixes, use `ruff check . --fix` only when explicitly asked.
 - Install via `pip install ruff` (or add to `requirements.txt`) when setup is requested.
 
+## Specialized Agents
+- See `AGENTS.md` for task-specific agents.
