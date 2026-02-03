@@ -1,5 +1,7 @@
 exports/
 
+data/
+models/
 data/cache
 ./logs
 logs/*
