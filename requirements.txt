@@ -10,4 +10,5 @@ tensorboard==2.10.1
 tensorflow==2.13.1
 tensorflow_intel==2.10.0
 tqdm==4.66.1
+xgboost==2.1.1
 yfinance==0.2.36
