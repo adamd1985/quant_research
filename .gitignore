@@ -1,11 +1,18 @@
+CLAUDE.md
+
 exports/
 
 data/
 models/
 data/cache
 
-# Agent instructions (local only)
+# Agent/AI instructions (local only)
 .claude/
+.wolf/
+.cursorrules
+.vscode/
+.mcp/
+mcp.json
 ./logs
 logs/*
 
