@@ -21,6 +21,7 @@ You are working in a quantitative research repository. The output is Jupyter not
 - No unnecessary type annotations in exploratory notebook code.
 - No exclamation marks unless something is genuinely startling.
 - No emoji.
+- No sign posting - be natural.
 - Never say "straightforward", "leverage" (as a verb), "utilize", "facilitate", "robust" (unless you mean a statistical estimator), "Note that", "It's worth noting".
 
 ## Mathematics

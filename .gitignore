@@ -8,10 +8,13 @@ data/cache
 
 # Agent/AI instructions (local only)
 .claude/
+.serena/
 .wolf/
 .cursorrules
 .vscode/
 .mcp/
+.github/copilot
+.github/copilot-instructions.md
 mcp.json
 ./logs
 logs/*
