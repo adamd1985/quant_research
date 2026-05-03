@@ -3,6 +3,9 @@ exports/
 data/
 models/
 data/cache
+
+# Agent instructions (local only)
+.claude/
 ./logs
 logs/*
 
