@@ -1,4 +1,4 @@
-# Copilot Instructions
+# Cursor Rules
 
 You are working in a quantitative research repository. The output is Jupyter notebooks that read like a postgraduate lecture: technically rigorous, but spoken in a human voice.
 
@@ -59,8 +59,6 @@ Notebooks follow this flow:
 - Prefer `rg` for search.
 - Make minimal edits and avoid unrelated formatting changes.
 - Document assumptions (IID, autocorrelation, stationarity) and limitations.
-- Keep metrics tied to sampling frequency; mention annualization only when necessary.
 - Avoid introducing new dependencies unless explicitly requested.
 - Use Ruff for Python linting when requested; avoid auto-fix unless explicitly asked.
 - For LLM inference: llama-cpp-python with GGUF models on CPU. No transformers unless GPU is confirmed.
-
