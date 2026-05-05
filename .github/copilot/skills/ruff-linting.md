@@ -4,3 +4,4 @@
 - Prefer `ruff check .` to surface lint issues.
 - Use `ruff check . --fix` only when explicitly requested.
 - When adding to deps, update `requirements.txt` or `environment.yml`.
+- If linting work also touches notebook prose, keep titles and transitions natural rather than scaffolded.
