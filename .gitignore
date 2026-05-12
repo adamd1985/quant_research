@@ -1,7 +1,8 @@
 CLAUDE.md
 
 exports/
-
+copilot-instructions.md
+copilot/
 data/
 models/
 data/cache

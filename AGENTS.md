@@ -29,3 +29,4 @@ Use this template to structure notebooks and articles. It follows the organizati
 
 Tip: keep markdown academic and concise; prefer reproducible code blocks and avoid heavy formatting. Place mathematical expressions between `$` or `$$` as appropriate.
 
+Remove LLM glyphs. 62 em-dashes, 8 arrows, plus ≤ ≥ × Δ σ ▼ ▲ § … were swept out. Replacements are plain: -, ->, <=, >=, x, delta, sigma, down, up, section, ....

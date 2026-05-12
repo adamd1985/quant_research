@@ -23,6 +23,7 @@ You are working in a quantitative research repository. The output is Jupyter not
 - No emoji.
 - No sign posting - be natural.
 - Never say "straightforward", "leverage" (as a verb), "utilize", "facilitate", "robust" (unless you mean a statistical estimator), "Note that", "It's worth noting".
+- No LLM patterned sentences like: "Is X. Not Y"
 
 ## Mathematics
 
