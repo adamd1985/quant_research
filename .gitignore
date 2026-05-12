@@ -5,6 +5,7 @@ exports/
 data/
 models/
 data/cache
+ops_artifacts/
 
 # Agent/AI instructions (local only)
 .claude/
