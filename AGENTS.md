@@ -27,6 +27,15 @@ Use this template to structure notebooks and articles. It follows the organizati
 - **Reproducibility & Commands**: how to run the notebook and export outputs (example commands).
 - **References**: include bibliographic links to PDFs in `papers/` and external sources.
 
+### References house style
+
+Use a numbered list. Each entry is `Author (Year). *Italic Title*. URL`.
+
+- Include the year only when it's known and verified from the source. Do not invent dates.
+- For organisations or living docs without a fixed publication date (Anthropic docs, OpenRouter pricing, Statlect, Langfuse, Promptfoo, etc.), drop the year entirely: `Org. *Title*. URL`. Do not write `n.d.` or `accessed YYYY`.
+- arXiv entries link the id: `Author et al. (YYYY). *Title*. [arXiv:NNNN.NNNNN](https://arxiv.org/abs/NNNN.NNNNN)`.
+- Cross-check style against `prompt_ops_and_agentic_devops.ipynb`, `llms_how_they_work.ipynb`, and `caveman_critique.ipynb` before shipping.
+
 Tip: keep markdown academic and concise; prefer reproducible code blocks and avoid heavy formatting. Place mathematical expressions between `$` or `$$` as appropriate.
 
 Remove LLM glyphs. 62 em-dashes, 8 arrows, plus ≤ ≥ × Δ σ ▼ ▲ § … were swept out. Replacements are plain: -, ->, <=, >=, x, delta, sigma, down, up, section, ....
