@@ -8,6 +8,8 @@ models/
 data/cache
 ops_artifacts/
 
+
+.env
 # Agent/AI instructions (local only)
 .claude/
 .serena/
