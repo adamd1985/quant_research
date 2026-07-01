@@ -1,0 +1,222 @@
+[
+ {
+  "model": "sonnet-4.6",
+  "style": "baseline",
+  "question": "What is 17 * 23?",
+  "input_tokens": 23,
+  "output_tokens": 57,
+  "total_tokens": 80,
+  "latency": 2.16,
+  "text": "17 * 23 = **391**\n\nHere's the breakdown:\n- 17 \u00d7 20 = 340\n- 17 \u00d7 3 = 51\n- 340 + 51 = **391**",
+  "correct": true
+ },
+ {
+  "model": "sonnet-5",
+  "style": "baseline",
+  "question": "What is 17 * 23?",
+  "input_tokens": 26,
+  "output_tokens": 57,
+  "total_tokens": 83,
+  "latency": 3.61,
+  "text": "17 \u00d7 23 = 391\n\nHere's the breakdown:\n- 17 \u00d7 20 = 340\n- 17 \u00d7 3 = 51\n- 340 + 51 = 391",
+  "correct": true
+ },
+ {
+  "model": "sonnet-4.6",
+  "style": "caveman",
+  "question": "What is 17 * 23?",
+  "input_tokens": 125,
+  "output_tokens": 5,
+  "total_tokens": 130,
+  "latency": 1.45,
+  "text": "391",
+  "correct": true
+ },
+ {
+  "model": "sonnet-5",
+  "style": "caveman",
+  "question": "What is 17 * 23?",
+  "input_tokens": 172,
+  "output_tokens": 21,
+  "total_tokens": 193,
+  "latency": 1.63,
+  "text": "17*23 = 391.",
+  "correct": true
+ },
+ {
+  "model": "sonnet-4.6",
+  "style": "baseline",
+  "question": "In Python, what does len([1,2,3]) return?",
+  "input_tokens": 29,
+  "output_tokens": 149,
+  "total_tokens": 178,
+  "latency": 3.45,
+  "text": "## `len([1,2,3])` in Python\n\nThe `len()` function returns the **number of items** in an object.\n\n```python\nlen([1, 2, 3])  # Returns: 3\n```\n\nIt returns **`3`** because the list contains 3 elements:\n- `1` \u2192 element 1\n- `2` \u2192 element 2\n- `3` \u2192 element 3\n\n### Quick Notes:\n- `len()` works on lists, strings, tuples, dictionaries, and other sequences\n- It returns an **integer**\n- An empty list `len([])` would return `0`",
+  "correct": true
+ },
+ {
+  "model": "sonnet-5",
+  "style": "baseline",
+  "question": "In Python, what does len([1,2,3]) return?",
+  "input_tokens": 34,
+  "output_tokens": 113,
+  "total_tokens": 147,
+  "latency": 5.45,
+  "text": "In Python, `len([1, 2, 3])` returns **3**.\n\nThe `len()` function returns the number of items in a container (like a list, tuple, string, or dictionary). Since the list `[1, 2, 3]` contains three elements, `len()` counts them and returns `3`.\n\n```python\n>>> len([1, 2, 3])\n3\n```",
+  "correct": true
+ },
+ {
+  "model": "sonnet-4.6",
+  "style": "caveman",
+  "question": "In Python, what does len([1,2,3]) return?",
+  "input_tokens": 131,
+  "output_tokens": 5,
+  "total_tokens": 136,
+  "latency": 2.34,
+  "text": "3",
+  "correct": true
+ },
+ {
+  "model": "sonnet-5",
+  "style": "caveman",
+  "question": "In Python, what does len([1,2,3]) return?",
+  "input_tokens": 180,
+  "output_tokens": 13,
+  "total_tokens": 193,
+  "latency": 1.42,
+  "text": "Return 3. Count items in list.",
+  "correct": true
+ },
+ {
+  "model": "sonnet-4.6",
+  "style": "baseline",
+  "question": "What HTTP status code means 'Not Found'?",
+  "input_tokens": 25,
+  "output_tokens": 34,
+  "total_tokens": 59,
+  "latency": 1.59,
+  "text": "The HTTP status code **404** means **'Not Found'**.\n\nIt indicates that the server could not find the requested resource at the specified URL.",
+  "correct": true
+ },
+ {
+  "model": "sonnet-5",
+  "style": "baseline",
+  "question": "What HTTP status code means 'Not Found'?",
+  "input_tokens": 33,
+  "output_tokens": 179,
+  "total_tokens": 212,
+  "latency": 3.18,
+  "text": "The HTTP status code for \"Not Found\" is **404**.\n\nThis status code indicates that the server could not find the requested resource. It's one of the most well-known HTTP status codes and is commonly encountered when:\n\n- A webpage has been deleted or moved without a redirect\n- A URL is typed incorrectly\n- A link is broken or outdated\n- The requested resource simply doesn't exist on the server\n\n404 falls into the category of **4xx client error responses**, meaning the issue is typically related to the request made by the client (browser) rather than a problem with the server itself.",
+  "correct": true
+ },
+ {
+  "model": "sonnet-4.6",
+  "style": "caveman",
+  "question": "What HTTP status code means 'Not Found'?",
+  "input_tokens": 127,
+  "output_tokens": 5,
+  "total_tokens": 132,
+  "latency": 1.11,
+  "text": "404",
+  "correct": true
+ },
+ {
+  "model": "sonnet-5",
+  "style": "caveman",
+  "question": "What HTTP status code means 'Not Found'?",
+  "input_tokens": 179,
+  "output_tokens": 14,
+  "total_tokens": 193,
+  "latency": 1.56,
+  "text": "404. Mean resource not found on server.",
+  "correct": true
+ },
+ {
+  "model": "sonnet-4.6",
+  "style": "baseline",
+  "question": "What is the time complexity of binary search?",
+  "input_tokens": 23,
+  "output_tokens": 318,
+  "total_tokens": 341,
+  "latency": 6.45,
+  "text": "## Binary Search Time Complexity\n\n### Time Complexity: **O(log n)**\n\n**Why O(log n)?**\n\nBinary search works by repeatedly **halving** the search space:\n\n```\nn \u2192 n/2 \u2192 n/4 \u2192 n/8 \u2192 ... \u2192 1\n```\n\nThe number of steps needed to reduce `n` to 1 is **log\u2082(n)**.\n\n---\n\n### Complexity Breakdown\n\n| Case | Time Complexity | Description |\n|------|----------------|-------------|\n| **Best Case** | O(1) | Target found at the middle on first check |\n| **Average Case** | O(log n) | Target found after several halvings |\n| **Worst Case** | O(log n) | Target not found or at the boundary |\n\n### Space Complexity\n\n| Implementation | Space Complexity |\n|---------------|-----------------|\n| **Iterative** | O(1) |\n| **Recursive** | O(log n) \u2014 due to call stack |\n\n---\n\n### Quick Example\n\nFor an array of **1,000,000 elements**, binary search takes at most:\n> log\u2082(1,000,000) \u2248 **20 steps**\n\nCompared to linear search which could take **1,000,000 steps**.\n\n---\n\n### Key Requirement\nBinary search **requires a sorted array** to work correctly.",
+  "correct": true
+ },
+ {
+  "model": "sonnet-5",
+  "style": "baseline",
+  "question": "What is the time complexity of binary search?",
+  "input_tokens": 29,
+  "output_tokens": 495,
+  "total_tokens": 524,
+  "latency": 6.37,
+  "text": "# Binary Search Time Complexity\n\n**Time Complexity: O(log n)**\n\n## Explanation\n\nBinary search works on a **sorted** array by repeatedly dividing the search interval in half:\n\n1. Compare the target with the middle element\n2. If equal, done\n3. If target is smaller, search the left half\n4. If target is larger, search the right half\n5. Repeat until found or the interval is empty\n\n## Why O(log n)?\n\nEach step eliminates **half** of the remaining elements. Starting with `n` elements:\n\n```\nn \u2192 n/2 \u2192 n/4 \u2192 n/8 \u2192 ... \u2192 1\n```\n\nThe number of times you can divide `n` by 2 until reaching 1 is `log\u2082(n)`.\n\n## Complexity Breakdown\n\n| Case | Complexity |\n|------|-----------|\n| Best case | O(1) \u2014 target is the middle element on first check |\n| Average case | O(log n) |\n| Worst case | O(log n) |\n| Space complexity (iterative) | O(1) |\n| Space complexity (recursive) | O(log n) \u2014 due to call stack |\n\n## Example\n\nFor an array of **1,000,000** elements, binary search takes at most about **20 comparisons** (since 2\u00b2\u2070 \u2248 1,000,000), compared to up to 1,000,000 comparisons for linear search (O(n)).\n\n## Requirement\nBinary search **requires the array to be sorted** beforehand. If it isn't sorted, you'd need O(n log n) to sort first (e.g., using an efficient sorting algorithm).",
+  "correct": true
+ },
+ {
+  "model": "sonnet-4.6",
+  "style": "caveman",
+  "question": "What is the time complexity of binary search?",
+  "input_tokens": 125,
+  "output_tokens": 16,
+  "total_tokens": 141,
+  "latency": 1.61,
+  "text": "O(log n). Halves search space each step.",
+  "correct": true
+ },
+ {
+  "model": "sonnet-5",
+  "style": "caveman",
+  "question": "What is the time complexity of binary search?",
+  "input_tokens": 175,
+  "output_tokens": 22,
+  "total_tokens": 197,
+  "latency": 1.64,
+  "text": "O(log n). Halve search space each step. Sorted data required.",
+  "correct": true
+ },
+ {
+  "model": "sonnet-4.6",
+  "style": "baseline",
+  "question": "Name the HTTP method used to update a resource.",
+  "input_tokens": 24,
+  "output_tokens": 305,
+  "total_tokens": 329,
+  "latency": 6.62,
+  "text": "## HTTP Method for Updating a Resource\n\nThere are **two** HTTP methods commonly used to update a resource:\n\n### 1. `PUT`\n- **Replaces** the entire resource with the new data provided.\n- Idempotent (calling it multiple times produces the same result).\n- Example: Updating all fields of a user profile.\n\n```http\nPUT /users/123\nContent-Type: application/json\n\n{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\"\n}\n```\n\n### 2. `PATCH`\n- **Partially updates** a resource (only the fields provided are modified).\n- Not necessarily idempotent.\n- Example: Updating only the email of a user profile.\n\n```http\nPATCH /users/123\nContent-Type: application/json\n\n{\n  \"email\": \"newemail@example.com\"\n}\n```\n\n---\n\n### Summary\n\n| Method | Update Type | Idempotent |\n|--------|------------|------------|\n| `PUT`  | Full update (replace) | \u2705 Yes |\n| `PATCH`| Partial update | \u26a0\ufe0f Not always |\n\n> The most commonly cited answer is **`PUT`**, but **`PATCH`** is preferred when partially updating a resource.",
+  "correct": true
+ },
+ {
+  "model": "sonnet-5",
+  "style": "baseline",
+  "question": "Name the HTTP method used to update a resource.",
+  "input_tokens": 32,
+  "output_tokens": 288,
+  "total_tokens": 320,
+  "latency": 7.24,
+  "text": "The HTTP method used to update a resource is **PUT** (and sometimes **PATCH**).\n\nHere's the distinction:\n\n- **PUT** \u2013 Replaces the entire resource with the data provided in the request. If a field is omitted, it may be removed or reset to a default value, depending on the API's implementation.\n\n- **PATCH** \u2013 Applies a partial update to the resource, modifying only the specified fields while leaving the rest unchanged.\n\n**Example:**\n\n```http\nPUT /users/123\nContent-Type: application/json\n\n{\n  \"name\": \"Alice\",\n  \"email\": \"alice@example.com\"\n}\n```\n\n```http\nPATCH /users/123\nContent-Type: application/json\n\n{\n  \"email\": \"newalice@example.com\"\n}\n```\n\nIn practice, **PUT** is more commonly emphasized in REST conventions for full updates, while **PATCH** is used when only partial changes are needed.",
+  "correct": true
+ },
+ {
+  "model": "sonnet-4.6",
+  "style": "caveman",
+  "question": "Name the HTTP method used to update a resource.",
+  "input_tokens": 126,
+  "output_tokens": 19,
+  "total_tokens": 145,
+  "latency": 1.32,
+  "text": "PUT or PATCH. PUT replaces whole resource. PATCH updates partial.",
+  "correct": true
+ },
+ {
+  "model": "sonnet-5",
+  "style": "caveman",
+  "question": "Name the HTTP method used to update a resource.",
+  "input_tokens": 178,
+  "output_tokens": 30,
+  "total_tokens": 208,
+  "latency": 3.33,
+  "text": "PUT update resource. Replace whole thing.\n\nPATCH also update. Change part only.",
+  "correct": true
+ }
+]
