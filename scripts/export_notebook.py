@@ -55,14 +55,42 @@ def main() -> int:
     if not pandoc:
         raise SystemExit("pandoc not found in PATH")
 
+    # Resolve notebook-generated image paths relative to the export directory.
+    resource_args = ["--resource-path", str(out_dir)]
+
     # DOCX via pandoc
-    run([pandoc, "-s", str(md_path), "-o", str(out_dir / f"{base}.docx")])
+    run([pandoc, "-s", str(md_path), *resource_args, "-o", str(out_dir / f"{base}.docx")])
 
     # PDF via pandoc (requires LaTeX)
-    pdf_cmd = [pandoc, "-s", str(md_path), "-o", str(out_dir / f"{base}.pdf")]
+    pdf_path = out_dir / f"{base}.pdf"
+    pdf_cmd = [pandoc, "-s", str(md_path), *resource_args, "-o", str(pdf_path)]
     if args.pdf_engine:
         pdf_cmd.extend(["--pdf-engine", args.pdf_engine])
-    run(pdf_cmd)
+    try:
+        run(pdf_cmd)
+    except subprocess.CalledProcessError:
+        # Some Windows TeX installations cannot render Pandoc's current template.
+        # A headless browser can print the already-generated HTML without losing
+        # notebook figures or requiring another Python dependency.
+        browser_candidates = [
+            Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe"),
+            Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"),
+            Path(r"C:\Program Files\Microsoft\Edge\Application\msedge.exe"),
+        ]
+        browser = next((path for path in browser_candidates if path.exists()), None)
+        html_path = out_dir / f"{base}.html"
+        if browser is None:
+            raise SystemExit("PDF export failed and no supported headless browser was found")
+        run([
+            str(browser),
+            "--headless",
+            "--disable-gpu",
+            "--no-pdf-header-footer",
+            f"--print-to-pdf={pdf_path}",
+            html_path.as_uri(),
+        ])
+        if not pdf_path.exists() or pdf_path.stat().st_size == 0:
+            raise SystemExit("Headless browser did not create the PDF")
 
     return 0
 
