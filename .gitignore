@@ -1,5 +1,8 @@
 CLAUDE.md
 chapter5_arcticdb/
+logs/
+cache*/
+.ruff_*/
 
 exports/
 copilot-instructions.md
