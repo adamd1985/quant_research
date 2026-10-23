@@ -2,5 +2,11 @@
     "codeQL.githubDatabase.download": "never",
     "python.analysis.autoImportCompletions": true,
     "python.analysis.typeCheckingMode": "basic",
-    "python.terminal.useEnvFile": true
+    "python.terminal.useEnvFile": true,
+    "chat.tools.terminal.autoApprove": {
+        "/^Set-Location C:\\\\; rtk code --remote wsl\\+Ubuntu-24\\.04 /home/adamd1985/articles$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
 }
