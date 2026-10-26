@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"chat.tools.terminal.autoApprove": {
+			"/^Set-Location C:\\\\; rtk code --remote wsl\\+Ubuntu-24\\.04 /home/adamd1985/articles$/": {
+				"approve": true,
+				"matchCommandLine": true
+			}
+		}
+	}
 }

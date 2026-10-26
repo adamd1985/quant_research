@@ -4,6 +4,7 @@ Collection of  notebooks and scripts related to financial engineering, quant-res
 
 ## Table of Contents
 
+- **When Correlation Trades Against Causation: A Python Introduction to Causal Graphs in Finance** [Github](https://github.com/adamd1985/quant_research/blob/main/causality_finance/causality_graphs_finance.ipynb) or [Kaggle](https://www.kaggle.com/code/addarm/causal-graphs-in-finance).
 - **Can We Prove What an AI Agent Is Allowed to Do?** [Github](https://github.com/adamd1985/quant_research/blob/main/formal_verification_of_ai_agent_permissions.ipynb) or [Kaggle]().
 - **Portfolio Machine Learning Trials Without P-Hacking with Honest PSR, DSR, and SPA Tests** [Github](https://github.com/adamd1985/quant_research/blob/main/portfolio_ml_trails_no_phacking_testing.ipynb) or [Kaggle](https://www.kaggle.com/code/addarm/portfolio-ml-trials-without-p-hacking).
 - **Machine Learning and Stochastic Models for Predicting FOMC Meetings Impact** [Github](https://github.com/adamd1985/quant_research/blob/main/fomc_impact_sims.ipynb) or [Kaggle]().
